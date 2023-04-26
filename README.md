@@ -3,21 +3,11 @@
 
 A new Flutter project.
 
+This is a mobile app that helps you create and maintain good habits, allowing you to achieve your long-term goals.
+Graph that show you how your habits improved over time.
+It is completely ad-free and open source.
+
 SCREENSHOTS
+___________
 
-![Screenshot_1682434680](https://user-images.githubusercontent.com/128021626/234450005-6696e291-d0c3-434d-8267-c2cf74cf1a05.png)
-![Screenshot_1682434685](https://user-images.githubusercontent.com/128021626/234450011-b50268a4-7df4-40bf-8b3d-fc67b438d663.png)
-![Screenshot_1682434692](https://user-images.githubusercontent.com/128021626/234450013-67dad358-8542-436a-9fca-eed2819856fc.png)
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1682434680](https://user-images.githubusercontent.com/128021626/234451432-2c0ba3c8-f4ad-46b7-8176-bf6114693a1d.png)
