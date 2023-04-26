@@ -1,4 +1,5 @@
 
+
 # habit_tracker
 
 A new Flutter project.
@@ -10,7 +11,5 @@ It is completely ad-free and open source.
 SCREENSHOTS
 ___________
 
-![Screenshot_1682434680](https://user-images.githubusercontent.com/128021626/234451432-2c0ba3c8-f4ad-46b7-8176-bf6114693a1d.png)
-
-
+![Screenshot_1682434680](https://user-images.githubusercontent.com/128021626/234453824-0a5ac8a4-fc9f-4d9c-b621-9439227e209b.png)
 
