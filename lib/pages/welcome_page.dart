@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:habit_tracker/pages/home_page.dart';
+
+import 'home_page.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -9,36 +10,45 @@ class WelcomePage extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-            colorFilter: ColorFilter.mode(Color.fromARGB(255, 244, 143, 177), BlendMode.color),
+            colorFilter: ColorFilter.mode(
+                Color.fromARGB(255, 244, 143, 177), BlendMode.color),
             image: AssetImage("images/1.jpg"),
             fit: BoxFit.fill),
       ),
-      // padding: const EdgeInsets.only(top: 640,left: 120,right: 120,bottom: 100),
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          const Padding(padding: EdgeInsets.only(top: 100,)),
-          const Center(
+          const Padding(
+            padding: EdgeInsets.only(top: 80),
             child: Text(
               "HABIT TRACKER",
               style: TextStyle(
-                color: Color.fromARGB(255, 240, 98, 146),
-                fontWeight: FontWeight.bold,
-                fontSize: 45,
-                decoration: TextDecoration.none,
-                fontStyle: FontStyle.italic
-              ),
+                  color: Color.fromARGB(255, 240, 98, 146),
+                  fontWeight: FontWeight.bold,
+                  fontSize: 45,
+                  decoration: TextDecoration.none,
+                  fontStyle: FontStyle.italic),
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 460),
+            padding: const EdgeInsets.only(bottom: 80),
             child: TextButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>const HomePage()));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const HomePage(),
+                  ),
+                );
               },
               style: TextButton.styleFrom(
-                  shape: const BeveledRectangleBorder(
-                      borderRadius: BorderRadius.all(Radius.circular(10))),
-                  side: const BorderSide(width: 2.0, color: Colors.pink)),
+                shape: const BeveledRectangleBorder(
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(10),
+                  ),
+                ),
+                side: const BorderSide(width: 2.0, color: Colors.pink),
+              ),
               child: const Text(
                 "<Enter>",
                 style: TextStyle(
