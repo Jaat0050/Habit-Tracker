@@ -1,16 +1,15 @@
+
+
 # habit_tracker
 
 A new Flutter project.
 
-## Getting Started
+This is a mobile app that helps you create and maintain good habits, allowing you to achieve your long-term goals.
+Graph that show you how your habits improved over time.
+It is completely ad-free and open source.
 
-This project is a starting point for a Flutter application.
+SCREENSHOTS
+___________
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_1682434680](https://user-images.githubusercontent.com/128021626/234453824-0a5ac8a4-fc9f-4d9c-b621-9439227e209b.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
